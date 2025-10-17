@@ -1,5 +1,49 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
+    background: rgb(143, 143, 143);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+.container {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.box{
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px;
+    text-align: center;
+}
+p {
+    color: black;
+    margin: 10px 10px 10px 10px auto;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 34px;
+
+}
+button{
+    margin: 10px 250px;
+    color: black;
+    background: rgb(204, 204, 204);
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px;
+    text-align: center;
+
+}
+button:hover {
     background: white;
 }
